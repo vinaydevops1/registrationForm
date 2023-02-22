@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  line-height: 10px;
+}
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 300px;
+}
+* {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.input-style {
+  padding: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
+  outline: none;
+}
+.error-color {
+  background-color: #fef2f4;
+  border: 2px solid #ff0b37;
+  border-radius: 5px;
+}
+.required-text {
+  color: #ff0b37;
+  font-size: 14px;
+}
+
+.heading {
+  color: #ea580c;
+}
+.button {
+  color: white;
+  background-color: #ea580c;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.img-size {
+  height: 100px;
+}
